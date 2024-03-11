@@ -6,7 +6,7 @@
     Cortex-M0 双核
     DMA控制器（AHB）
     外置32位128MB的SDRAM
-    内置64kb的ROM
+    内置64kB的ROM
     一个定时器（APB）
     一个串口（APB）
     ST或JLINK（SW）调试
