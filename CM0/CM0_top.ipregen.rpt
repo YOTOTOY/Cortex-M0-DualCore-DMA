@@ -1,0 +1,68 @@
+IP Upgrade report for CM0_top
+Thu Mar 02 16:59:25 2023
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Failed Upgrade IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------+
+; IP Upgrade Summary                                                         ;
++------------------------------+---------------------------------------------+
+; IP Components Upgrade Status ; Failed - Thu Mar 02 16:59:25 2023           ;
+; Quartus II 64-Bit Version    ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                ; CM0_top                                     ;
+; Top-level Entity Name        ; CM0_top                                     ;
+; Family                       ; Cyclone IV E                                ;
++------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Failed Upgrade IP Components                                                                                                                                                             ;
++-------------+----------------+---------+----------------------+----------------------+-----------------+---------------------------------------------------------------------------------+
+; Entity Name ; Component Name ; Version ; Original Source File ; Generation File Path ; New Source File ; Message                                                                         ;
++-------------+----------------+---------+----------------------+----------------------+-----------------+---------------------------------------------------------------------------------+
+; PLL         ; ALTPLL         ; 15.0    ; PLL.qip              ; PLL.v                ;                 ; IP component "PLL.v" does not support IP component upgrade through command line ;
++-------------+----------------+---------+----------------------+----------------------+-----------------+---------------------------------------------------------------------------------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Error (12354): IP component "PLL.v" does not support IP component upgrade through command line
+Error (11133): IP component ALTPLL with file "PLL.v" upgrade failed
+Error (23031): Evaluation of Tcl script f:/altera/15.0/quartus/common/tcl/internal/ip_regen/ip_regen.tcl unsuccessful
+Error: Quartus II 64-Bit Shell was unsuccessful. 3 errors, 0 warnings
+    Error: Peak virtual memory: 4500 megabytes
+    Error: Processing ended: Thu Mar 02 16:59:25 2023
+    Error: Elapsed time: 00:00:17
+    Error: Total CPU time (on all processors): 00:00:42
+
+

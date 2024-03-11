@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 7",
+		"os_version" : "6.2"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "none",
+		"error_message" : "return_value != NULL",
+		"source_file" : "/quartus/sld/sedq/sedq_tx_manager.cpp",
+		"line" : "10778",
+		"stack_trace" : "\t0x7ffe313a93e8: sld_sedq + 0xd93e8 (?save_modified@SEDQ_TX_MANAGER@@AEAA_NXZ + 0x98)\n\t0x7ffe313a7b27: sld_sedq + 0xd7b27 (?save_document@SEDQ_TX_MANAGER@@QEAA_NPEBD@Z + 0xa7)\n\t0x7ffe313a8fe4: sld_sedq + 0xd8fe4 (?save_document@SEDQ_WIZARD@@QEAAXPEBD@Z + 0x64)\n\t0x7ffe7f230118: SYS_QUI + 0x30118 (?on_save_action@QUI_FRAME_WND@@UEAA_NXZ + 0xf8)\n\t0x7ffe7f2512c9: SYS_QUI + 0x512c9 (?qt_static_metacall@QUI_FRAME_WND@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z + 0x159)\n\t 0x6fb0c160: QtCore4 + 0x14c160 (?activate@QMetaObject@@SAXPEAVQObject@@PEBU1@HPEAPEAX@Z + 0x520)\n\t 0x6fd2c13f: QtGui4 + 0xc13f (?activate@QAction@@QEAAXW4ActionEvent@1@@Z + 0xdf)\n\t 0x700e1c45: QtGui4 + 0x3c1c45 (?click@QAbstractButton@@QEAAXXZ + 0x135)\n\t 0x700e2e29: QtGui4 + 0x3c2e29 (?mouseReleaseEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z + 0x59)\n\t 0x701a188e: QtGui4 + 0x48188e (?mouseReleaseEvent@QToolButton@@MEAAXPEAVQMouseEvent@@@Z + 0xe)\n\t 0x6fd95174: QtGui4 + 0x75174 (?event@QWidget@@MEAA_NPEAVQEvent@@@Z + 0xd4)\n\t 0x6fd4c765: QtGui4 + 0x2c765 (?notify_helper@QApplicationPrivate@@QEAA_NPEAVQObject@@PEAVQEvent@@@Z + 0xf5)\n\t 0x6fd4b35e: QtGui4 + 0x2b35e (?notify@QApplication@@UEAA_NPEAVQObject@@PEAVQEvent@@@Z + 0x71e)\n\t 0x6fafaaab: QtCore4 + 0x13aaab (?notifyInternal@QCoreApplication@@AEAA_NPEAVQObject@@PEAVQEvent@@@Z + 0x7b)\n\t 0x6fd4fa3e: QtGui4 + 0x2fa3e (?sendMouseEvent@QApplicationPrivate@@SA_NPEAVQWidget@@PEAVQMouseEvent@@00PEAPEAV2@AEAV?$QPointer@VQWidget@@@@_N@Z + 0x1de)\n\t 0x6fdc4530: QtGui4 + 0xa4530 (?trUtf8@QScrollBar@@SA?AVQString@@PEBD0H@Z + 0x1450)\n\t 0x6fdc7f61: QtGui4 + 0xa7f61 (?winMouseButtonUp@QApplication@@SAXXZ + 0x2771)\n\t0x2ab3f6a74d5: USER32 + 0x174d5 (DispatchMessageW + 0x6a5)\n\t0x2ab3f6a6ff1: USER32 + 0x16ff1 (DispatchMessageW + 0x1c1)\n\t 0x6fb28f42: QtCore4 + 0x168f42 (?processEvents@QEventDispatcherWin32@@UEAA_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z + 0x3e2)\n\t 0x6fdbf864: QtGui4 + 0x9f864 (?openPopup@QApplicationPrivate@@QEAAXPEAVQWidget@@@Z + 0x204)\n\t 0x6faf6a7b: QtCore4 + 0x136a7b (?exec@QEventLoop@@QEAAHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z + 0x22b)\n\t 0x6faf9cbf: QtCore4 + 0x139cbf (?exec@QCoreApplication@@SAHXZ + 0xdf)\n\t0x7ff60b02197b: quartus + 0x197b\n\t0x7ffe93a2cbe8: CCL_MSG + 0xcbe8 (?msg_initialize_out_of_memory_handler@@YAXXZ + 0x378)\n\t0x7ffe93a2e31c: CCL_MSG + 0xe31c (?msg_set_stack_size@@YAXH@Z + 0x7c)\n\t0x7ffe8a144c0c: ccl_mem + 0x4c0c (?mem_malloc_wrapper@@YAPEAX_KPEAVMEM_TRACKER_THUNK@@PEBD@Z + 0x18c)\n\t0x7ffe93a2c831: CCL_MSG + 0xc831 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff60b022507: quartus + 0x2507\n\t0x7ff60b021e74: quartus + 0x1e74\n\t0x7ffea82e7ad3: KERNEL32 + 0x17ad3 (BaseThreadInitThunk + 0x13)\n\t0x7ffeaa67a370: ntdll + 0x5a370 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "SEDQ"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "15.0.0",
+		"build" : "145",
+		"edition" : "Full Version"
+	}
+}
