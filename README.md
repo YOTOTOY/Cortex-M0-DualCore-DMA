@@ -12,4 +12,4 @@
     ST或JLINK（SW）调试
     时序约束50MHz
 
-![image](00.png)
+![image](image/00.png)
