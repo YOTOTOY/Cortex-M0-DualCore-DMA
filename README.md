@@ -11,3 +11,5 @@
     一个串口（APB）
     ST或JLINK（SW）调试
     时序约束50MHz
+
+[!image](00.png)
